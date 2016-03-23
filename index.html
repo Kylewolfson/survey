@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery.js"></script>
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1> Please take and enjoy this pointless shitty survey so we can get to know you. </h1>
+
+      <form id="custDetails">
+          <div class="form-group">
+            <label for="fullName">Enter full name:</label>
+            <input id="fullName" class="form-control" type="text">
+          </div>
+
+          <label for="favoriteFoods">Enter favorite foods:</label>
+          <select class="form-control" id="foods">
+
+            <option>Tacos</option>
+            <option>Pasta</option>
+            <option>Burgers</option>
+            <option>Pizza</option>
+          </select>
+          <label for="favoriteFoods">Enter favorite icecream:</label>
+          <div class="radio">
+            <label>
+              <input type="radio" name="flavor" value="Chocolate" checked>
+              Chocolate
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="flavor" value="Vanilla">
+              Vanilla
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="flavor" value="Cookies & Cream">
+              Cookies & Cream
+            </label>
+          </div>
+          <div class="form-group">
+            <label for="color">What is your favorite color?</label>
+            <input id="color" class="form-control" type="color">
+          </div>
+
+          <div class="form-group">
+            <label for="favoriteMusic">Enter favorite music:</label>
+            <input id="favoriteMusic" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="favoriteSport">Enter favorite sport:</label>
+            <input id="favoriteSport" class="form-control" type="text">
+          </div>
+
+          <div class="form-group">
+            <label for="born">Date of birth:</label>
+            <input id="born" class="form-control" type="date">
+          </div>
+          <button type="submit" class="btn">complete survey</button>
+        </form>
+      <div id="fullName1"></div>
+      <div id="favoriteFoods1"></div>
+      <div id="favoriteMusic1"></div>
+      <div id="favoriteSport1"></div>
+      <span id="favoriteFlavor1"></span>
+      <span id="favoriteColor1"></span>
+    </div>
+
+  </body>
+</html>
